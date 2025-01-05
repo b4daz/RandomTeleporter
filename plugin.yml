@@ -1,0 +1,10 @@
+name: RandomTeleporter
+main: RandomTeleporter\Main
+version: 1.0.0
+api: [5.0.0]
+author: b4daz
+description: Teleports the player to a random location.
+permissions:
+  rtp.cmd:
+    description: Permission to use /rtp
+    default: true
