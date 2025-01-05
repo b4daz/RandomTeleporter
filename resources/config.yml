@@ -1,0 +1,48 @@
+command:
+  # Main command name used by players.
+  name: "randomteleport"
+
+  # Alternative names for the command.
+  aliases:
+    - "rtp"
+    - "randomtp"
+
+  # Description shown in the help menu.
+  description: "Teleport randomly"
+
+  # Usage message shown if the command is used incorrectly.
+  usage_message: "/rtp"
+
+  # Permission required to use the command.
+  permission: "rtp.cmd"
+
+messages:
+  # Message if the player lacks permission.
+  no_permission: "§cYou don't have the permission to use this command!"
+
+  # Message on successful teleport, with {x}, {y}, and {z} replaced by coordinates.
+  success: "§aSuccessfully teleported to §b{x} §b{y} §b{z}"
+
+  # Message if the command is executed by non-players.
+  not_player: "§cYou have to be a player to use this command!"
+
+  # Message if the command is used in a disabled world.
+  disabled_world: "§cYou cannot use this command in this world!"
+
+range:
+  # X coordinate range for teleportation.
+  x:
+    - -1000
+    - 1000
+
+  # Z coordinate range for teleportation.
+  z:
+    - -1000
+    - 1000
+    
+worlds:
+  # Worlds where the command is allowed.
+  enabled:
+    - "world"
+    - "world_nether"
+    - "world_the_end"
