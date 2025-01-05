@@ -1,6 +1,6 @@
-# Random Teleporter Plugin for PocketMine
+# RandomTeleporter Plugin for PocketMine
 
-Random Teleporter is a simple yet powerful plugin for PocketMine-MP that allows players to teleport randomly within a world, with the ability to customize the teleportation ranges and enable or disable it in specific worlds.
+RandomTeleporter is a simple yet powerful plugin for PocketMine-MP that allows players to teleport randomly within a world, with the ability to customize the teleportation ranges and enable or disable it in specific worlds.
 
 ## Features
 
@@ -10,15 +10,15 @@ Random Teleporter is a simple yet powerful plugin for PocketMine-MP that allows 
 
 ## Requirements
 
-- PocketMine-MP v4.x or later
-- PHP 7.4 or later
+- PocketMine-MP v5.x or later
 
 ## Installation
 
 1. Download the plugin.
 2. Place the `RandomTeleporter` folder inside the `plugins` directory of your PocketMine server.
-3. Restart or reload the server.
-4. The plugin should be active and ready to use.
+3. Click the `unarchive` button
+4. Restart or reload the server.
+5. The plugin should be active and ready to use.
 
 ## Configuration
 
